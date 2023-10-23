@@ -1,0 +1,63 @@
+.search-bar {
+  background-color: #ffffff;
+  display: block;
+  border: 1px solid #000000;
+  color: #666;
+  padding: 2px;
+  width: 13em;
+}
+
+.search-bar input {
+  border: none;
+  font-size: 14px;
+  font-family: 'Roboto';
+  color: #666;
+  width: 14em;
+}
+
+.header__div__compra {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.header__nav ul {
+  padding: 10px 0;
+  margin: 0;
+}
+
+.header__nav ul li a {
+  text-decoration: none;
+  color: #03264c;
+}
+
+#loguin {
+  padding-bottom: 40px;
+}
+
+
+.footer__section {
+  text-align: center;
+  padding: 5px 0;
+  background-color: #ffffff;
+
+}
+
+.footer__section p {
+  font-size: 12px;
+  color: #666;
+  margin: 3px 50px;
+}
+
+.footer__section h3 {
+  font-size: 16px;
+  font-weight: 900;
+}
+
+.footer__section h5 {
+  font-size: 8px;
+}
+
+.footer__section i {
+  font-size: 2em;
+  padding-top: 10px;
+}
