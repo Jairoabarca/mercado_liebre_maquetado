@@ -5,7 +5,7 @@ body {
 
 .burguer-menu {
     display: block;
-    margin: auto;
+    margin-left: 50%;
     font-size: 30px;
     padding: 4px 10px;
     background-color: #03264c;
@@ -34,8 +34,14 @@ body {
     font-size: 24px;
 }
 
-.home__main__section article{
+.home__main__section-div{
+    background-color: #ffffff;
     border-top: 1px solid #ebebeb;
+    padding: 10px 0 0 10px;
+}
+
+.home__main__section article{
+    border-top: 1px solid #ffffff;
     background-color: #ebebeb;
     padding: 15px;
     margin-bottom: 10px;
@@ -52,6 +58,7 @@ body {
 }
 
 .home__main__section__article__OFF {
+    color: green;
     font-size: 16px;
     margin: 5px 0;
 }
