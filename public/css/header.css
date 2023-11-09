@@ -5,6 +5,8 @@
   color: #666;
   padding: 2px;
   width: 13em;
+  display: flex;
+  justify-content: space-between;
 }
 .search-bar input {
   border: none;
@@ -12,6 +14,7 @@
   font-family: 'Roboto';
   color: #666;
   width: 14em;
+  width: 50%;
 }
 
 .header__div__compra {

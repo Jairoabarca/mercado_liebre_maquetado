@@ -1,4 +1,9 @@
-body {
+.home__body {
+    font-family: 'Roboto';
+    background-color: #ffff;
+    color: #000000;
+}
+.home__header{
     font-family: 'Roboto';
     background-color: #EAC926;
 }
@@ -18,6 +23,7 @@ body {
 .home__main{
     width: 90%;
     margin: 0 auto;
+    justify-content: center;
 }
 
 .home__main img {
@@ -73,35 +79,59 @@ body {
   border: 1px solid green;
   border-radius: 100%;
   padding: 1%;
+  margin-left: 235px;
 } 
 
-
+/* TABLET */
 @media (min-width: 361px) {
-    .article container {
-        box-shadow: 0px 0px 10px rgb(100, 100, 100); 
-    }
-}
-
-
-@media (max-width: 360px) {
-  
-    .home__main__section__article__description {
+    .burguer-menu{
         display: none;
     }
+    .home__main__section {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .home__main__section__article {
+        width: 50%;
+    }
+    
+    .home__main__section__article--imagen img {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    
+    .home__main__section__article--detalleProducto {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    
+    .home__main__section__article--producto--descripcion h5 {
+        display: block;
+    }
 }
 
+/* DESKTOP */
+@media (min-width: 769px) {
+    
+    }
+    
+    .home__main__section {
+        display: flex;
+        flex-wrap: wrap;
+    }
 
-@media (min-width: 361px) {
-    .mobile-header {
-        display: none; 
+    .home__main__section__article {
+        width: 24%;
     }
-    .hamburguesa-icon {
-        display: none; 
-    }
-}
 
-@media (max-width: 769px) {
-    .tablet-desktop-header {
-        display: none; 
+    .home__main h2 {
+        display: block;
     }
-}
+
+    .home__main__section__article--producto--detalle p {
+        font-size: 0.7rem;
+    }
+    
+    .home__main__section__article--producto--detalle--descuento {
+        font-size: 0.7rem;
+        margin-left: 5px;
+    }
