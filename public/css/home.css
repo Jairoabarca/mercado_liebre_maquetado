@@ -1,92 +1,72 @@
-.home__body {
-    font-family: 'Roboto';
-    background-color: #ffff;
-    color: #000000;
-}
-.home__header{
-    font-family: 'Roboto';
-    background-color: #EAC926;
-}
-
-.burguer-menu {
-    display: block;
-    margin-left: 50%;
-    font-size: 30px;
-    padding: 4px 10px;
-    background-color: #03264c;
-    border-radius: 5px;
-    color: #ffffff;
-    width: 25px;
-    align-items: center;
-    justify-content: center;
-}
-.home__main{
+.home__main {
     width: 90%;
-    margin: 0 auto;
-    justify-content: center;
+    margin: 0px auto;
 }
 
-.home__main img {
-    padding-top: 15px;
+.home__main__banner img{
+    width: 100%;
 }
 
-.home__main__section{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
+.home__main__section__article {
+    margin-bottom: 10px;
+    width: 98%;
+    margin: auto;
 }
 
-.home__main__section h2 {
-    font-size: 24px;
+.home__main__section__article img {
+    width: 100%;
 }
 
-.home__main__section-div{
+.home__main__section__article--producto {
+    position: relative;
     background-color: #ffffff;
-    border-top: 1px solid #ebebeb;
-    padding: 10px 0 0 10px;
-}
-
-.home__main__section article{
-    border-top: 1px solid #ffffff;
-    background-color: #ebebeb;
-    padding: 15px;
     margin-bottom: 10px;
 }
 
-.home__main__section article img{
-    max-width: 100%;
-    height: auto;
-}
-
-.home__main__section__article__price {
-    font-size: 18px;
-    margin-bottom: 5px;
-}
-
-.home__main__section__article__OFF {
-    color: green;
+.home__main__section__article i {
+    color: var(--Verde);
+    border: 1px solid var(--Verde);
+    display: block;
     font-size: 16px;
-    margin: 5px 0;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
 }
 
-.home__main__section__article__description {
-    font-size: 16px;
-    margin-top: 5px;
+.home__main__section__article--detalleProducto {
+    background-color: #ffffff;
 }
 
-.home__main__section__articles a{
-  color: green;
-  border: 1px solid green;
-  border-radius: 100%;
-  padding: 1%;
-  margin-left: 235px;
-} 
+.home__main__section__article--producto--detalle {
+    border-top: 1px solid #dbdbdb;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.home__main__section__article--producto--descripcion h5 {
+    padding: 15px;
+    color: var(--GrisOscuro);
+    display: none;
+}
+
+.home__main__section__article--producto--detalle p {
+    width: 30%;
+}
+
+.home__main__section__article--producto--detalle--descuento {
+    color: var(--Verde);
+    width: 70%;
+}
 
 /* TABLET */
 @media (min-width: 361px) {
-    .burguer-menu{
-        display: none;
-    }
     .home__main__section {
         display: flex;
         flex-wrap: wrap;
@@ -111,9 +91,6 @@
 
 /* DESKTOP */
 @media (min-width: 769px) {
-    
-    }
-    
     .home__main__section {
         display: flex;
         flex-wrap: wrap;
@@ -123,7 +100,7 @@
         width: 24%;
     }
 
-    .home__main h2 {
+    .home__main h3 {
         display: block;
     }
 
@@ -135,3 +112,4 @@
         font-size: 0.7rem;
         margin-left: 5px;
     }
+}

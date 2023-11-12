@@ -1,0 +1,14 @@
+.register__main {
+    width: 100%;
+}
+
+.register__main__section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.register__main__section h5 {
+    margin: 0.2rem 0px;
+}

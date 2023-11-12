@@ -1,67 +1,71 @@
-.search-bar {
-  background-color: #ffffff;
-  display: block;
-  border: 1px solid #000000;
-  color: #666;
-  padding: 2px;
-  width: 13em;
-  display: flex;
-  justify-content: space-between;
-}
-.search-bar input {
-  border: none;
-  font-size: 14px;
-  font-family: 'Roboto';
-  color: #666;
-  width: 14em;
-  width: 50%;
+.home__header {
+    background-color: var(--Amarillo);
+    width: 100%;
 }
 
-.header__div__compra {
-  text-align: center;
-  padding: 20px 0;
+.home__header img {
+    width: 150px;
+    margin: 10px 20px;
 }
 
-.header__nav ul {
-  padding: 10px 0;
-  margin: 0;
+.home__header__div--busqueda {
+    margin-top: 10px;
+    margin-left: 20px;
 }
 
-.header__nav ul li a {
-  text-decoration: none;
-  color: #03264c;
+.home__header__div--busqueda input {
+    width: 45%;
 }
 
-#loguin {
-  padding-bottom: 40px;
+.home__header__div--busquedaIcono i{
+    margin-left: 20px;
+    background-color: var(--GrisClaro);
+    padding: 2px;
+    border: 1px solid #000000;
+    margin-bottom: 20px;
+    border-radius: 3px;
 }
 
-
-.footer__section {
-  text-align: center;
-  padding: 20px;
-  color:#03264c;
-  background-color: #ffffff;
-
-
+.home__header__div--iconoCuotasTarjetas {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
 }
 
-.footer__section p {
-  font-size: 12px;
-  color: #666;
-  margin: 10px;
+.home__header__nav {
+    padding-bottom: 20px;
+    display: none;
 }
 
-.footer__section h3 {
-  font-size: 16px;
-  font-weight: 900;
+.home__header__nav ul {
+    margin-bottom: 10px;
 }
 
-.footer__section h5 {
-  font-size: 8px;
+.home__header__div--iconoMenu {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    font-size: 20px;
+    color: #ffffff;
 }
 
-.footer__section i {
-  font-size: 2em;
-  padding-top: 10px;
+.home__header__div--iconoMenu i {
+    background-color: var(--Celeste);
+    padding: 6px;
+    border-radius: 4px;
+}
+
+/* TABLET */
+@media (min-width: 361px) {
+    .home__header__nav {
+        display: block;
+    }
+    .home__header__div--iconoMenu {
+        display: none;
+    }
+}
+
+/* DESKTOP */
+@media (min-width: 769px) {
+    
 }
