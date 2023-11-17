@@ -1,29 +1,22 @@
 .formulario {
-    width: 50%;
+    width: 70%;
+    min-width: 200px;
+    max-width: 300px;
+    padding: 1rem;
     border: 1px solid var(--GrisOscuro);
     border-radius: 0.6rem;
     margin: 2rem;
-    background-color: #ffffff;
+    background-color: var(--AmarilloOscuro);
     display: flex;
-    align-items: center;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.formulario__estilo {
-    margin: 1rem 1rem;
-}
-
-.formulario__input {
-    border: none;
-    border-bottom: 1px solid var(--GrisOscuro);
-    background-color: #ffffff;
-    display: block;
-}
-
-.formulario__estilo--radio {
-    display: flex;
-}
-
-.formulario__estilo--checkbox {
-    
+.formulario input {
+    margin: 10px 0px;
+    border-radius: 3px;
+    border: 0.5px solid black;
+    padding: 5px;
 }

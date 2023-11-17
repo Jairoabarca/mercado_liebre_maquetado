@@ -5,10 +5,21 @@
 .register__main__section {
     width: 100%;
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    margin-top: 20px;
 }
 
-.register__main__section h5 {
-    margin: 0.2rem 0px;
+.register__main__section form h5 {
+    margin-top: 20px;
+}
+
+.register__main__section form .contenedorCategorias {
+    display: flex;
+    flex-direction: column;
+}
+
+.register__main__section form .fotoPerfil {
+    width: 90%;
 }

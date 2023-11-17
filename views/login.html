@@ -42,42 +42,11 @@
     
     <main class="register__main">
         <section class="register__main__section">
-            <h5>Formulario de registro</h5>
+            <h5>Formulario de login</h5>
             <form action="" class="formulario">
-                <input id="name" type="text" placeholder="Nombre y apellido" name="name" required pattern="[A-Za-z]{3}" title="Más de 3 letras y sin tíldes">
                 <input id="usuario" type="text" placeholder="Nombre de usuario" name="usuario" required>
-                <input id="email" type="email" placeholder="Email" name="email" required>
-                <input id="domicilio" type="text" placeholder="Domicilio" name="domicilio" required>
-                <input id="password" type="password" placeholder="Contraseña" name="password" required pattern=".{8,}">
-                <input id="repetirPassword" type="password" placeholder="Repetir contraseña" name="repetirPassword" required pattern=".{8,}">
-                
-                <h5>Fecha de nacimiento</h5>
-                <input id="nacimiento" type="date" name="nacimiento" required>
-                
-                <h5>Perfil de usuario</h5>
-                <div >
-                    <input id="perfil" type="radio" name="perfil">
-                    <label for="">Comprador</label>
-                    <input id="perfil" type="radio" name="perfil">
-                    <label for="">Vendedor</label>
-                </div>
-                
-                <h5>Categorías de interés</h5>
-                <div class="contenedorCategorias">
-                    <label for=""><input id="interes" type="checkbox" name="interes">Electro</label>
-                    <label for=""><input id="interes" type="checkbox" name="interes">Moda</label>
-                    <label for=""><input id="interes" type="checkbox" name="interes">Hogar</label>
-                    <label for=""><input id="interes" type="checkbox" name="interes">Jueguetería</label>
-                    <label for=""><input id="interes" type="checkbox" name="interes">Vida sana</label>
-                </div>  
-                
-                <h5>Foto de perfíl</h5>
-                <input class="fotoPerfil" type="file" id="fotoPerfil" name="fotoPerfil" accept="image/png, image/jpeg" required>
-
-                <div class="formularioBotones">
-                    <button formaction="/">ENVIAR</button>
-                    <button type="reset">LIMPIAR</button>
-                </div>
+                <input id="password" type="password" placeholder="Contraseña" name="password" required>
+                <button formaction="/" type="submit">INGRESAR</button>
             </form>
         </section>
     </main>
