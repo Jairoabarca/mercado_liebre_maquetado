@@ -73,9 +73,9 @@
         display: flex;
         flex-wrap: wrap;
     }
-
+    
     .home__main__section__article {
-        width: 50%;
+        width: 49%;
     }
     
     .home__main__section__article--imagen img {
